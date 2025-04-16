@@ -1071,6 +1071,24 @@ padding: 30px;
 .info-block {
 gap: 15px;
 }
+
+.mobile-menu-btn {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    position: fixed;
+    top: 70px; /* Height of the nav */
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    padding: 20px 0;
+  }
 }
 
 @media (max-width: 480px) {
